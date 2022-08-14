@@ -1,0 +1,6 @@
+,check,check_level,check_status,constraint,constraint_status,constraint_message
+0,Review Check,Warning,Success,"UniquenessConstraint(Uniqueness(List(country_id),None))",Success,
+1,Review Check,Warning,Success,"CompletenessConstraint(Completeness(country_id,None))",Success,
+2,Review Check,Warning,Success,"CompletenessConstraint(Completeness(region_id,None))",Success,
+3,Review Check,Warning,Success,"ComplianceConstraint(Compliance(region_id is non-negative,COALESCE(CAST(region_id AS DECIMAL(20,10)), 0.0) >= 0,None))",Success,
+4,Review Check,Warning,Success,"ComplianceConstraint(Compliance(region_id contained in 1,3,4,2,`region_id` IS NULL OR `region_id` IN ('1','3','4','2'),None))",Success,
