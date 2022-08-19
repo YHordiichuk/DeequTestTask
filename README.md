@@ -16,7 +16,7 @@ Data Quality Engineering - Deequ test task
 It's preview:
     ![reportexample](./report.png)
 
-You can look at whole report by open [this file](https://github.com/YGordiychuk/DeequTestTask/results.csv).
+You can look at whole report by open [this file](https://github.com/YGordiychuk/DeequTestTask/blob/main/results.csv).
 
 # If not work and problem like from db side:
 1. Check settings in  SQL Server Configuration Manager -> SQL Server Network Configuration -> Protocols for <SQLEXPRESS> -> TCP/IP Properties -> IP Addresses
